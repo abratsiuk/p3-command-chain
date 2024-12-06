@@ -1,0 +1,23 @@
+{
+  "name": "p3-command-chain",
+  "version": "1.0.0",
+  "description": "A package to execute a chain of yarn and shell commands",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "build": "echo Building project...",
+    "test": "echo Running tests...",
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.5.3",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.2.0",
+    "stylelint": "^16.11.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
